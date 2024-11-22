@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #d9efff, #a6d8ff, #78c1ff);
+
+  }
+  
+  /* OTP Generator Styles */
+  .otp-generator {
+    text-align: center;
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+   color: #fff;
+  }
+  
+  p {
+    margin: 10px 0 20px;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  /* OTP Display */
+  .otp-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #otp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  #copyOtp {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #copyOtp:hover {
+    background: #0056b3;
+  }
+  
+  /* Generate Button */
+  #generateOtp {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #generateOtp:hover {
+    background: #1e7e34;
+  }
+  
